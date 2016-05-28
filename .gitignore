@@ -1,0 +1,6 @@
+objs
+resources
+._*
+.nfs*
+.*.swp
+.DS*
