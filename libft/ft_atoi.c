@@ -6,7 +6,7 @@
 /*   By: amerelo <amerelo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/26 14:33:55 by amerelo           #+#    #+#             */
-/*   Updated: 2016/05/03 14:40:33 by amerelo          ###   ########.fr       */
+/*   Updated: 2016/05/30 01:29:58 by amerelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 long int		ft_atoi(const char *str)
 {
-	int x;
-	long int sign;
-	long int resu;
+	int			x;
+	long int	sign;
+	long int	resu;
 
 	x = 0;
 	sign = 1;

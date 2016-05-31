@@ -6,7 +6,7 @@
 /*   By: amerelo <amerelo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 14:54:17 by amerelo           #+#    #+#             */
-/*   Updated: 2016/05/03 14:41:00 by amerelo          ###   ########.fr       */
+/*   Updated: 2016/05/30 01:30:15 by amerelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ int					ft_isascii(int nb);
 int					ft_isalpha(int nb);
 int					ft_isalnum(int nb);
 void				*ft_bzero(void *b, size_t len);
-long int					ft_atoi(const char *str);
+long int			ft_atoi(const char *str);
 char				*ft_itoa(int n);
 void				*ft_memalloc(size_t size);
 void				ft_memdel(void **ap);
