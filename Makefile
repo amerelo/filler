@@ -6,7 +6,7 @@
 #    By: amerelo <amerelo@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/03/04 14:49:35 by amerelo           #+#    #+#              #
-#    Updated: 2016/05/28 21:23:09 by amerelo          ###   ########.fr        #
+#    Updated: 2016/06/03 01:11:46 by amerelo          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ DIR_C = ./src/
 
 DIR_O = ./objs/
 
-FILE_C = main.c
+FILE_C = main.c place.c tools.c tools2.c
 
 FILE_O = $(FILE_C:.c=.o)
 
@@ -31,7 +31,7 @@ FLAGS = -Wall -Wextra -Werror -g
 all: $(NAME)
 
 $(NAME): $(SRC_O)
-	@gcc -o $(NAME) $(SRC_O) -L libft/ -lft
+	@gcc -o $(NAME) $(SRC_O) -L libft/ -lft -fsanitize=address
 
 $(SRC_O): $(SRC_C)
 	@make -C libft/
